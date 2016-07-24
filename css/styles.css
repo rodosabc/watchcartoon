@@ -1,0 +1,89 @@
+h2{
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.nav-main{
+  background: #f8ab05;
+  height: 70px;
+}
+
+.nav-main .container div{
+  display: inline-block;
+}
+
+.logo{
+  width: 150px;
+}
+
+.menu ul a{
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 1.2em;
+  height: 55px;
+  width: 120px;
+  text-align: center;
+  padding-top: 9px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.11s ease-out 0.11s;
+}
+
+.menu ul a:hover{
+  border-bottom: 5px solid #ff6600;
+  text-shadow: 0 0 1px #666666;
+}
+
+.menu ul a li{
+  list-style-type: none;
+}
+
+.items{
+  padding-left: 10px;
+}
+
+.item{
+  width: 30%;
+  height: 170px;
+  margin: 15px;
+  background: #00ccff;
+  transition: all 0.2s ease-out 0.2s;
+  z-index: 2;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.item:hover{
+  transform: scale(1.1, 1.1);
+  box-shadow: -2px 5px 7px 2px  rgba(153,153,153,0.9);
+}
+
+.info{
+  margin-top: 170px;
+  z-index: 1;
+  height: 80px;
+  transform: translateY(-40px);
+  background: rgba(0,0,0,0.5);
+  transition: all 0.2s ease-out 0.2s;
+}
+
+
+.item:hover > .info{
+  transform: translateY(-80px);
+}
+
+.info p{
+  color: #ffffff;
+  margin-left: 15px;
+  padding-top: 5px;
+  font-size: 1.3em;
+}
+
+.info ul li{
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.3em;
+  margin-right: 20%;
+  list-style-type: circle;
+}
