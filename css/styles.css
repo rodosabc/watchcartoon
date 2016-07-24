@@ -1,11 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700);
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.row{
+  margin: 0;
+  padding: 0;
+}
+
 h2{
   margin-left: 15px;
   margin-bottom: 5px;
+  font-size: 2em;
 }
 
 .nav-main{
   background: #f8ab05;
   height: 70px;
+  box-shadow: -2px 0 7px 2px  rgba(153,153,153,0.9);
 }
 
 .nav-main .container div{
@@ -19,9 +32,9 @@ h2{
 .menu ul a{
   display: inline-block;
   margin-right: 15px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   height: 55px;
-  width: 120px;
+  width: 130px;
   text-align: center;
   padding-top: 9px;
   color: #ffffff;
@@ -39,13 +52,15 @@ h2{
 }
 
 .items{
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .item{
+  display: inline-block;
   width: 30%;
   height: 170px;
-  margin: 15px;
+  margin: 1.5%;
   background: #00ccff;
   transition: all 0.2s ease-out 0.2s;
   z-index: 2;
@@ -70,7 +85,7 @@ h2{
 
 
 .item:hover > .info{
-  transform: translateY(-80px);
+  transform: translateY(-79px);
 }
 
 .info p{
@@ -80,10 +95,34 @@ h2{
   font-size: 1.3em;
 }
 
+.info ul{
+    width: 300px;
+    margin: 0 auto;
+}
+
 .info ul li{
   color: #ffffff;
   display: inline-block;
   font-size: 1.3em;
   margin-right: 20%;
   list-style-type: circle;
+  padding-bottom: 10px;
 }
+
+/*@media (max-width:970px) {
+  .item{
+    margin: 10px;
+  }
+}
+
+@media (max-width:750px) {
+  .item{
+    width: 45%;
+  }
+}
+
+@media (max-width:480px) {
+  .item{
+    width: 90%;
+  }
+}*/
