@@ -247,7 +247,78 @@ height:0px
 width: 6px;
 }
 
+.formComment{
+  padding-left: 40px;
+}
 
+.userData{
+  padding: 10px;
+  background: #cccccc;
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: -15px;
+}
+
+.usetText{
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  padding: 0 10px;
+  border-radius: 0 0 5px 5px;
+  text-align: right;
+}
+
+.usetText textarea{
+  margin: 25px 5% 5px 5%;
+  width: 90%;
+  min-height: 80px;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left !important;
+}
+
+*:focus {outline: none;}
+
+.userData input{
+  margin: 0 5px;
+  color: #000000;
+  width: 150px;
+  height: 30px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+}
+
+.userData input:focus, .usetText textarea:focus{
+  background: #fff;
+  border:1px solid #555;
+  box-shadow: 0 0 3px #aaa;
+}
+
+.usetText button{
+  padding: 10px 15px;
+  background-color: #33cc33;
+  background: linear-gradient(top, #68b12f, #50911e);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  /*position: relative;*/
+
+}
+
+.usetText button:hover{
+  background-color: #339900;
+}
+
+.usetText button:active{
+  background-color: #006600;
+  /*background: linear-gradient(top, #339900, #006600);*/
+}
 
 /*@media (max-width:970px) {
   .item{
