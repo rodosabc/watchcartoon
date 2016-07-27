@@ -332,7 +332,7 @@ width: 6px;
 }
 
 .footer .col-lg-3.col-md-3{
-  text-align: center;
+  te
 }
 
 .footer ul li{
@@ -370,6 +370,10 @@ width: 6px;
 .footer .col-lg-3:nth-child(1){
   padding-left: 3%;
   padding-top: 5px;
+}
+
+.video{
+  width: 90%
 }
 
 

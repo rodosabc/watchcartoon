@@ -5,7 +5,10 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" > -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="js/videoPlayerByKenny/videoPlayer.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/videoPlayerByKenny/videoPlayer.js"></script>
+
     <title>Cartoon</title>
   </head>
   <body>
@@ -36,6 +39,26 @@
         <div class="catalog">
         <h2>Название</h2>
         <div class="col-lg-10 col-lg-offset-1 video">
+
+              <video id="video">
+
+                  <source src="video/02 - Javascript Resources.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+              </video>
+              <div id="controls">
+                  <span id="playpause" class="paused playVideo">
+                    <img src="js/videoPlayerByKenny/media-play-symbol.svg">
+                  </span>
+                  <span id="progress">
+                    <span id="total">
+                        <span id="buffered"><span id="current">​</span></span>
+                    </span>
+                  </span>
+                  <span id="time">
+                    <span id="currenttime">00:00</span> /
+                    <span id="duration">00:00</span>
+                  </span>
+              </div>
+
           <div class="panel">
             <div class="views">Просмотры: 1000</div>
             <div class="rating">
