@@ -111,15 +111,16 @@ h2{
 
 .info ul{
   display: block;
-    width: 260px;
-    margin: 0 auto; 
+    width: 300px;
+    margin: 0 auto;
+    /*text-align: right;*/
 }
 
 .info ul li{
   color: #ffffff;
-  display: inline;
+  width: 32%;
+  display: inline-block;
   font-size: 1em;
-  margin-right: 5%;
 }
 
 .info ul li img{
