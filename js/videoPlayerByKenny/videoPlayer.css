@@ -1,68 +1,76 @@
-#video{
-  width: 90%;
-  height: auto;
-  margin: 10px auto;
-}
+ #video{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
 
-#controls{
-  background-color:#29393B;
-  height: 70px;
-  padding-top: 10px;
-  padding-left: 5px;
-}
-
-#controls span {
-    display:inline-block;
-}
-
-#playpause {
+  #controls{
     background-color:#29393B;
-    color:#333;
-    padding:10px 5px;
-    font-size:12pt;
-    text-transform:uppercase;
-    width:50px;
-    height: 50px;
-    transition: all 0.5s linear;
-    cursor: pointer;
-}
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+
+  #controls span {
+      display:inline-block;
+  }
+
+  #playpause {
+      background-color:#29393B;
+      color:#333;
+      padding:10px 5px;
+      font-size:12pt;
+      text-transform:uppercase;
+      width:50px;
+      height: 50px;
+      transition: all 0.5s linear;
+      cursor: pointer;
+  }
 
 
-#progress {
-   width: 80%;
-}
+  #progress {
+     width: 80%;
+     /*background:#69685E;*/
+     /*height: 13px;*/
+     cursor: pointer;
+  }
 
-#total {
-    width:100%;
-    background:#999;
-    position: relative;
-}
+  #total {
+      width:100%;
+      background:#69685E;
+      position: relative;
+      height: 15px;
+      top: 3px;
+      border-radius: 3px;
+  }
 
-#buffered {
-    background:rgba(248, 171, 5, 0.4);
-    position: absolute;
-    z-index: 1;
-    bottom: -5px;
-    height:15px;
-}
+  #buffered {
+      background:rgba(248, 171, 5, 0.4);
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      height:15px;
+      border-radius: 3px;
+  }
 
-#current {
-    background:#f8ab05;
-    line-height:0;
-    height:15px;
-    display: block;
-    z-index: 2;
-    bottom: 10px;
-    position: relative;
-    /*resize: horizontal;
-    overflow: visible;*/
-    transition: all 0.1s linear;
-}
+  #current {
+    border-radius: 3px;
+      background:#f8ab05;
+      line-height:0;
+      height:15px;
+      display: block;
+      z-index: 2;
+      bottom: 10px;
+      position: relative;
+      /*resize: horizontal;
+      overflow: visible;*/
+      transition: all 0.1s linear;
+  }
 
-#time {
-    margin-left: 10px;
-    color:#999;
-    font-size:13pt;
-    position: relative;
-    top: 3px;
-}
+  #time {
+      margin-left: 10px;
+      color:#999;
+      font-size:13pt;
+      position: relative;
+      top: 2px;
+  }
