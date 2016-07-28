@@ -211,6 +211,17 @@ h2{
   bottom: 0;
 }
 
+.playing{
+  border-radius: 0 0 5px 0 !important;
+  display: block;
+  background: rgba(0,0,0,0.5);
+  font-size: 1.1em;
+  position: absolute;
+  top: 0;
+  height: 30px;
+  color: #29CC2A !important;
+}
+
 .playFromList{
   width: 60px;
   height: 60px;
